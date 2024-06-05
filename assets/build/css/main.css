@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Matter";
+  src: url("../fonts/MatterSQ-Regular.woff2") format("woff2"), url("../fonts/MatterSQ-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("../fonts/MatterSQ-Medium.woff2") format("woff2"), url("../fonts/MatterSQ-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Matter";
+  src: url("../fonts/MatterSQ-Light.woff2") format("woff2"), url("../fonts/MatterSQ-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #62ff62;
+  /* WebKit/Blink Browsers */
+  color: white;
+}
+@keyframes spin {
+  50% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
